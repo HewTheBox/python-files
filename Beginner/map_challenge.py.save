@@ -1,0 +1,7 @@
+row1 = ["a","b","c"]
+row2 = ["d","e","f"]
+row3 = ["i","j","k"]
+map = [row1,row2,row3]
+
+print(map[0]2])
+#print(f"{row1}\n{row2}\n{row3}")

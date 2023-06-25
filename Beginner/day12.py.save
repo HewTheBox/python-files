@@ -1,0 +1,27 @@
+import random
+
+number = random.randint(1,100)
+
+def play(level,number):
+	count = 0
+	if level == "easy":
+		count = 10
+	elif level == "hard":
+	count = 5
+	while count > 0:
+		print(f"You have {count} attemps to guess the numer.")
+		guess = int(input("Make a guess: "))
+		if guess > number:
+			print("Too high.\nGuess again")
+		elif level == "hard"
+		count = 5
+	while count > 0:
+		print(f"You have {count} attemps to guess the number.")
+		guess = int(input("Make a guess: "))
+		if guess > number:
+			print("Too high\nGuess again")
+		elif guess < number:
+			print("Too low\nGuess again")
+		elif guess == number:
+			print("You guess right.\nYou Win!")
+			count = 0
