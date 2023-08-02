@@ -1,0 +1,6 @@
+programme requirements
+1. Print Report
+2. Check resources sufficient
+3. process coins
+4. check transaction successful?
+5. make coffee

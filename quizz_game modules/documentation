@@ -1,0 +1,16 @@
+the data.py file contains the data to the quizz
+
+use the question class to create questions
+e.g Question(q1,a1)
+
+
+use the QuizBrain class to output question to the user,validate the answer and
+ check whether the quiz is completed
+use the nextQuestion method to output question
+
+use the still_has_question to check if there are still question to be answered
+
+the check_answer method keep track of the score for you.
+it do so by validating the correct and answer by comparing the user_answer against
+the correct answer
+
